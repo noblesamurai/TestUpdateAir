@@ -1,0 +1,11 @@
+<application xmlns="http://ns.adobe.com/air/application/1.5.3">
+	<id>TestUpdateApp</id>
+	<version>0.1</version>
+	<filename>TestUpdateApp</filename>
+	<initialWindow>
+		<content>test.html</content>
+    <visible>true</visible>
+    <width>400</width>
+    <height>200</height>
+	</initialWindow>
+</application>

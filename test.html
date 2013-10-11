@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>TestUpdateApp</title>
+    <script type="text/javascript" src="js/AIRAliases.js"></script>
+    <script type="text/javascript">
+      function update() {
+        var updater = new air.Updater();
+        var file = air.File.applicationDirectory.resolvePath("update/TestUpdateApp.air");
+        var version = "0.2";
+        updater.update(file, version);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Test Update App 0.1</h1>
+    <button onclick="update()">Update to 0.2</button>
+  </body>
+</html>
